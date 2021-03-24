@@ -1,0 +1,49 @@
+.App {
+  text-align: center;
+}
+
+.App * {
+  z-index: 0;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+.App .app-title {
+  width: 90%;
+  margin: 0 auto;
+  padding: 10px 0;
+  color: white;
+  font-size: 40px;
+}
+
+.App .content {
+  margin: 0 auto 100px;
+  width: 80%;
+}
+
+.App .window > div {
+  position: fixed;
+  /*-ms-transform: translate(-50%, -50%);*/
+  /*-webkit-transfrom: translate(-50%, -50%);*/
+  transform: translate(-50%, -50%);
+  top: 50%;
+  left: 50%;
+  width: 1000px;
+
+  z-index: 1;
+}
+
+.App .color1 { color:  #00ffea; }
+.App .color2 { color: #10215a; }
+.App .color3 { color: #fff; }
+
+.App .background-color1 { background-color: #00ffea; }
+.App .background-color2 { background-color: #152352; }
+
+.App .hover-color1:hover { background-color: #00ffea; cursor: pointer; }
+.App .hover-color2:hover { background-color: #152352; cursor: pointer; }
+
+.App .border-color1 { border-color: #00ffea; }
+.App .border-color2 { border-color: #162864; }

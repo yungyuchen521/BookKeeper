@@ -1,0 +1,79 @@
+.add-category {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.add-category form > div {
+    margin: 120px auto 0;
+    height: 50px;
+}
+
+.add-category label, input {
+    display: inline-block;
+}
+
+.add-category h1 {
+    font-size: 40px;
+}
+
+.add-category .type {
+    width: 70%;
+    margin: 0 auto;
+}
+
+.add-category .type span {
+    display: inline-block;
+    box-sizing: border-box;
+
+    margin: 10px 0;
+
+    padding: 30px;
+    width: 45%;
+
+    font-size: 3vw;
+}
+
+.add-category .type-selected {
+    color: white;
+}
+
+.add-category .type-unselected {
+    background-color: #ddd;
+}
+
+.add-category label {
+    float: left;
+}
+
+.add-category input {
+    float: right;
+    width: 40%;
+}
+
+.add-category .name, .color {
+    width: 55%;
+}
+
+.add-category .name input {
+    margin: 0 30px;
+
+    text-align: center;
+    font-size: 2vw;
+
+    
+}
+
+.add-category .color input {
+    margin: 0 20px;
+    height: 40px;
+}
+
+.add-category button {
+    margin: 60px auto;
+
+    border-radius: 20px;
+
+    height: 60px;
+    width: 150px;
+    font-size: 30px;
+}

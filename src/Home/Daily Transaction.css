@@ -1,0 +1,39 @@
+.daily-transaction {
+    width: 100%;
+    margin: 10px auto;
+    padding: 10px;
+    display: block;
+}
+
+.daily-transaction .date {
+    width: 100%;
+    height: 50px;
+}
+
+.daily-transaction .date h1 {
+    float: left;
+    margin-left: 20px;
+    margin-top: 8px;
+    color: white;
+}
+
+.daily-transaction .container {
+    display: block;
+    overflow-x: scroll;
+    overflow-y: hidden;
+    height: 200px;
+    white-space: nowrap;
+    border: 1px dotted black;
+}
+
+.daily-transaction .container span {
+    display: inline-block;
+}
+
+.daily-transaction .total {
+    height: 50px;
+}
+
+.daily-transaction .total h1 {
+    color: white;
+}

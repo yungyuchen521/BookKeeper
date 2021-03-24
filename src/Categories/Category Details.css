@@ -1,0 +1,92 @@
+.category-details {
+    width: 50%;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.category-details .top {
+    border-top-right-radius: 20px;
+    border-top-left-radius: 20px;
+
+    width: 100%;
+    height: 50px;
+}
+
+.category-details .top span {
+    float: left;
+    margin: 15px 20px;
+    width: 30px;
+    cursor: pointer;
+
+    color: white;
+    font-size: 20px;
+}
+
+.transaction-details .top .close {
+    float: left;
+}
+
+.transaction-details .top .edit {
+    float: right;
+}
+
+.category-details .container {
+    border: 1px dotted black;
+    padding: 10px;
+    background-color: white;
+}
+
+.category-details .subtitle {
+    font-size: 30px;
+    text-align: left;
+    padding-left: 30px;
+    margin-top: 20px;
+}
+
+.category-details span.info {
+    float: right;
+    margin-right: 50px;
+}
+
+/* ======= type ======= */
+
+.category-details .type .edit span {
+    padding: 10px;
+    margin: 0;
+
+    font-size: 15px;
+
+    width: 70px;
+
+    display: inline-block;
+}
+
+/* ======= name ======= */
+
+.category-details .name input {
+    font-size: 20px;
+    text-align: center;
+    width: 150px;
+}
+
+/* ======= color ======= */
+
+.category-details .color input {
+    width: 80px;
+    height: 30px;
+}
+
+.category-details button {
+    color: white;
+    width: 120px;
+    height: 45px;
+
+    margin: 20px auto;
+
+    border-radius: 15px;
+    font-size: 20px;
+    
+    cursor: pointer;
+
+    box-shadow: none;
+}

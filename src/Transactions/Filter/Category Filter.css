@@ -1,0 +1,39 @@
+.category-filter {
+    display: inline-block;
+}
+
+.category-filter h3 {
+    margin-bottom: 15px;
+}
+
+.category-filter .categories {
+    white-space: nowrap;
+    overflow: scroll;
+
+    height: 200px;
+    margin: 0 10px 10px;
+    padding: 10px;
+
+    border: 1px dotted black;
+    border-radius: 10px;
+}
+
+.category-filter .category {
+    margin: 5px 0;
+    text-align: left;
+}
+
+.category-filter .category > span {
+    margin-left: 30px;
+}
+
+.category-filter .checkbox {
+    border-radius: 100%;
+    margin: 0 10px;
+    border: 2px dotted black;
+
+    width: 10px;
+    height: 10px;
+
+    display: inline-block;
+}

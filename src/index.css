@@ -1,0 +1,10 @@
+* {
+  margin: 0;
+  font-family: "Quicksand";
+  color: #333;
+}
+
+.home {
+  width: 80%;
+  margin: 0 auto;
+}

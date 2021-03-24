@@ -1,0 +1,4 @@
+.transactions-list .filters-container, .sorter-container {
+    display: inline-block;
+    width: 40%;
+}

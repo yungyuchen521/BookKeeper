@@ -1,0 +1,151 @@
+.add-transaction form {
+    width: 80%;
+    margin: auto;
+}
+
+.add-transaction form * {
+    display: block;
+    margin: 0 auto 60px;
+}
+
+.add-transaction form select, textarea {
+    width: 30%;
+
+    padding: 6px 10px;
+    border: 1px solid #ddd;
+    box-sizing: border-box;
+}
+
+/* ========================================= */
+/* ================== date ================= */
+/* ========================================= */
+
+.add-transaction .date {
+    display: inline-flex;
+}
+
+.add-transaction .date * {
+    border: none;
+    margin: 0;
+    width: 150px;
+    font-size: 50px;
+    text-align: center;
+}
+
+/* ========================================= */
+/* ================== type ================= */
+/* ========================================= */
+
+.add-transaction .type {
+    width: 100%;
+    margin-bottom: 0;
+}
+
+.add-transaction .type span {
+    display: inline-block;
+    box-sizing: border-box;
+
+    margin: 10px 0;
+
+    padding: 30px;
+    width: 45%;
+
+    font-size: 30px;
+}
+
+.add-transaction .type-selected {
+    color: white;
+}
+
+.add-transaction .type-unselected {
+    background-color: #ddd;
+}
+
+/* ========================================= */
+/* ============== categories =============== */
+/* ========================================= */
+
+.add-transaction .categories {
+    width: 90%;
+    height: 200px;
+
+    white-space: nowrap;
+    overflow-x: scroll;
+
+    border-width: 5px;
+    border-style: solid;
+    
+    border-radius: 20px;
+}
+
+.add-transaction .categories span {
+    width: 150px;
+    height: 150px;
+    box-sizing: border-box;
+
+    margin: 20px;
+    padding: 20px 0;
+    border-radius: 100%;
+
+    cursor: pointer;
+
+    display: inline-block;
+}
+
+.add-transaction .categories h3 {
+    margin: 40px auto;
+    font-size: 20px;
+    color: white;
+}
+
+.add-transaction .categories > span:hover {
+    height: 155px;
+    width: 155px;
+}
+
+/* ========================================= */
+/* ================ details ================ */
+/* ========================================= */
+
+.add-transaction textarea {
+    width: 100%;
+    height: 80px;
+    font-size: 20px;
+    resize: none;
+}
+
+/* ========================================= */
+/* ================= amount ================ */
+/* ========================================= */
+
+.add-transaction label {
+    margin: 20px auto;
+    align-items: center;
+}
+
+.add-transaction label * {
+    display: inline-block;
+    margin: 20px 10px;
+}
+
+.add-transaction label input {
+    border: none;
+    width: 100px;
+    text-align: center;
+    border-bottom: 1px solid black;
+    font-size: 30px;
+}
+
+/* ========================================= */
+/* ================= button ================ */
+/* ========================================= */
+
+.add-transaction button {
+    width: 20%;
+    padding: 15px;
+    border-radius: 15%;
+
+    color: white;
+    font-size: 25px;
+    font-weight: bold;
+}

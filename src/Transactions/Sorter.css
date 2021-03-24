@@ -1,0 +1,11 @@
+.sorter {
+    margin: 20px 30px;
+}
+
+.sorter label {
+    display: block;
+}
+
+.sorter select {
+    margin: 0 10px;
+}
